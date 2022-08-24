@@ -1,24 +1,41 @@
-#parent {
-  position: relative;
-}
-#elem {
-  padding: 5px;
-  font-size: 18px;
+.task {
+  display: block;
+  width: 1200px;
+  height: 400px;
+  text-align: center;
+  margin: 100px auto;
+  border: 1px solid black;
+  display: block;
 }
 
-#parent ul {
-  position: absolute;
-  margin: 0;
-  padding: 0;
+.task__heading {
+  margin: 50px;
+}
+
+.task__input {
+  margin-top: 80px;
+  margin-bottom: 0px;
+  padding: 5px;
+  font-size: 18px;
+  width: 300px;
+}
+
+.list {
   list-style-type: none;
   background-color: white;
+  margin: 0;
 }
-#parent li {
+
+.list__item {
   border: 1px solid gray;
   font-size: 18px;
   padding: 5px;
+  width: 150px;
+  margin: 0;
+  margin-left: 405px;
 }
-#parent li:hover {
+
+.list__item:hover {
   border: 1px solid black;
   cursor: pointer;
 }
