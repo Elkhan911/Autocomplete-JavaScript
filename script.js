@@ -156,9 +156,8 @@ input.addEventListener("input", function () {
       li.classList.add("list__item");
       list.append(li);
 
-      console.log(!li.textContent.startsWith(input.value));
-
-      if (!li.textContent.startsWith(input.value)) {
+      // почему не работает? специально создал if внутри другого if потому что иначе переменную li не видит
+      if (li.textContent.startsWith(input.value) == false) {
         console.log("yea");
         li.remove();
       }
