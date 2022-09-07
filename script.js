@@ -152,7 +152,7 @@ input.addEventListener("input", function () {
     if (elem.startsWith(input.value) && input.value !== "") {
       let li = document.createElement("li");
       li.textContent = elem;
-      li.classList.add("list__item");
+      li.classList.add("autocomplete__item");
       list.append(li);
     }
   });

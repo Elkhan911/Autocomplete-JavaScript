@@ -1,4 +1,4 @@
-.task {
+.content {
   display: block;
   width: 1200px;
   height: 800px;
@@ -8,11 +8,11 @@
   display: block;
 }
 
-.task__heading {
+.content__header {
   margin: 50px;
 }
 
-.task__input {
+.autocomplete__text {
   margin-top: 80px;
   margin-bottom: 0px;
   padding: 5px;
@@ -20,13 +20,13 @@
   width: 300px;
 }
 
-.list {
+.autocomplete__list {
   list-style-type: none;
   background-color: white;
   margin: 0;
 }
 
-.list__item {
+.autocomplete__item {
   border: 1px solid gray;
   font-size: 18px;
   padding: 5px;
@@ -35,7 +35,7 @@
   margin-left: 405px;
 }
 
-.list__item:hover {
+.autocomplete__item:hover {
   border: 1px solid black;
   cursor: pointer;
 }
